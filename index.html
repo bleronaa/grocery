@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grocery Food App</title>
+        <link rel="stylesheet"type="text/css" href="bootstrap.min.css">
+       <link rel="stylesheet"   href="style.css">
+       <script src="https://kit.fontawesome.com/7776884a8d.js" crossorigin="anonymous"></script>
+       
+    </head>
+    <body>
+    
+            <!--header-->
+            <header>
+               <div class="header-first">
+                   <div class="container">
+                       <div class="row align-items-center">
+                           <div class="col-lg-4">
+                               <div class="logo">
+                               <img src="images/logo.png">
+                               </div>
+                           </div>
+                    
+                       <div class="col-lg-2">
+                           <div class="wishlist">
+                               <div class="icon-holder">
+                               <i class="fa-regular fa-heart"></i>
+                               <span>3</span>
+                               </div>
+                               <span>Wishlist</span>
+                            
+                           </div>
+                           </div>
+                           <div class="col-lg-2">
+                               <div class="cart">
+                                   <i class="fa-solid fa-cart-shopping"></i>
+                                   <p> My cart<br/><span class="price"&dollar;21></span></p>
+                                   <i class="fasolid fa-angle-down"></i>
+                               </div>
+                           </div>
+                           <div class="col-lg-4">
+                               <div class="user">
+                                   <img src="images/user.png" alt="Header Logo">
+                                   <span>Ramiz Cherif<i class="fa-solid fa-angle-down-ms-2"></i></span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <hr style="margin-top:5px">
+              <div class="header-sec">
+                  <nav class="navbar">
+                      <div class="container">
+                          <button class="button">
+                              <i class="fa-solid fa-bars-staggered"></i>
+                              <span>Brows All Categories</span>
+                          </button>
+                          <div class="list">
+                              <ul>
+                                  <li class="nav-item">
+                                      <a href="#" style="color:#3bb77e;"><i class="fa-solid fa-house"></i>Home</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a href="#"><i class="fa-solid fa-fire"></i>Hot Deals</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="#"><i class="fa-solid fa-percent"></i>Promotions</a>
+                                  <li class="nav-item">
+                                    <a href="#">
+                                        <i class="fa-solid fa-bulhorn "></i>New Products
+                                    </a>
+                                </li>
+                              </ul>
+                          </div>
+                          <div class="phone" style="margin-top:-20px;">
+                        <a href="#"><i class="fa-solid sa-phone"></i>1233-7777</a>
+                        <span>24/7 Support Center</span>
+                    </div>
+                      </div>
+                  </nav>
+              </div>
+
+            </header>
+            <!--hero-section-->
+            <section class="hero-section">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1>Don't miss our daily amazing deals.</h1>
+                        <p>Save up to 60% of on your first order</p>
+                        <form action="" class="subscribe-form">
+                            <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Enter your email address">
+                            <input type="submit"
+                                    id="submit-subscribe"
+                                    value="subscribe">
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!--Category Section-->
+            <section class="category-section">
+                <div class="container">
+                    <div class="title-part">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <h2>Explore categories</h2>
+                            </div>
+                            <div class="col-md-6 text-right">
+                                <ul class="filter">
+                                <li><a href="#">All</a></li>
+                                <li><a href="#">Vegetables</a></li>
+                                <li><a href="#">Fruits</a></li>
+                                <li><a href="#">Coffe & teas</a></li>
+                                <li><a href="#">Meat</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posts-part">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xl-6">
+                                <div class="post-box">
+                                    <img src="uploads/category/grocery1.png" alt="">
+                                    <h3><a href="#">Peach</a></h3>
+                                    <span>20 items</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xl-6">
+                                <div class="post-box back2">
+                                    <img src="uploads/category/grocery2.png" alt="">
+                                    <h3><a href="#">Vegetables</a></h3>
+                                    <span>20 items</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xl-6">
+                                <div class="post-box back3">
+                                    <img src="uploads/category/grocery3.png" alt="">
+                                    <h3><a href="#">Strawberry</a></h3>
+                                    <span>20 items</span>
+                                </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-xl-6" alt="">
+                        <div class="post-box back4">
+                            <img src="uploads/category/grocery4.png"alt="">
+                            <h3><a href="#">Apple</a></h3>
+                            <span>20 items</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-xl-6" alt="">
+                        <div class="post-box back5">
+                            <img src="uploads/category/grocery5.png"alt="">
+                            <h3><a href="#">Orange</a></h3>
+                            <span>20 items</span>
+                </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xl-6" alt="">
+                    <div class="post-box back6">
+                        <img src="uploads/category/grocery6.png"alt="">
+                        <h3><a href="#">Potato</a></h3>
+                        <span>20 items</span>
+                        </div>
+                        </div>
+            
+                  </div>
+                 </div>
+               </div>
+              </div>
+                        
+            </section>
+                <!--Product section-->
+                <section class="products-section">
+                    <div class="container">
+                        <div class="title-part">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                <h2>Featured Products</h2>                               
+                            </div>
+                            <div class="col-md-6 text-right">
+                                <ul class="filter">
+                                <li><a href="#">All</a></li>
+                                <li><a href="#">Vegetables</a></li>
+                                <li><a href="#">Fruits</a></li>
+                                <li><a href="#">Coffe & teas</a></li>
+                                <li><a href="#">Meat</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posts-part">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6  col-xs-12">
+                                <div class="product-box">
+                                    <img src="uploads/products/prod1.png"alt="">
+                                    <div class="product-content">
+                                        <span class="category-item">Vegetable</span>
+                                        <h3><a href="#">Redish 500g</a></h3>
+                                        <p>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </p>
+                                        <p class="author">
+                                            By <a href="#">Mr.food</a>
+                                        </p>
+                                        <div class="price-box">
+                                            <p>
+                                                <span class="discount-price">
+                                                    $2
+                                                </span>
+                                                <span class="regular-price">
+                                                    $3.99
+                                                </span>
+                                            </p>
+                                            <button>
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                Add
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-xs-12">
+                                <div class="product-box">
+                                    <img src="uploads/products/prod2.png" alt="">
+                                    <div class="product-content">
+                                        <span class="category-item">Vegetable</span>
+                                        <h3><a href="#">Redish 500g</a></h3>
+                                        <p>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </p>
+                                        <p class="author">
+                                            By<a href="#">Mr.food</a>                                          
+                                        </p>
+                                        <div class="price-box">
+                                            <p>
+                                                <span class="discount-price">
+                                                    $2
+                                                </span>
+                                                <span class="regular-price">
+                                                    $3.99
+                                                </span>
+                                            </p>
+                                            <button>
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                Add
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-xs-12">
+                                <div class="product-box">
+                                    <img src="uploads/products/prod3.png" alt="">
+                                    <div class="product-content">
+                                        <span class="category-item">Vegetable</span>
+                                        <h3><a href="#">Redish 500g</a></h3>
+                                        <p>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </p>
+                                        <p class="author">
+                                            By<a href="#">Mr.food</a>                                          
+                                        </p>
+                                        <div class="price-box">
+                                            <p>
+                                                <span class="discount-price">
+                                                    $2
+                                                </span>
+                                                <span class="regular-price">
+                                                    $3.99
+                                                </span>
+                                            </p>
+                                            <button>
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                Add
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-xs-12">
+                                <div class="product-box">
+                                    <img src="uploads/products/prod4.png" alt="">
+                                    <div class="product-content">
+                                        <span class="category-item">Vegetable</span>
+                                        <h3><a href="#">Redish 500g</a></h3>
+                                        <p>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </p>
+                                        <p class="author">
+                                            By<a href="#">Mr.food</a>                                          
+                                        </p>
+                                        <div class="price-box">
+                                            <p>
+                                                <span class="discount-price">
+                                                    $2
+                                                </span>
+                                                <span class="regular-price">
+                                                    $3.99
+                                                </span>
+                                            </p>
+                                            <button>
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                Add
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <!--banner section-->
+                <section class="banner-section">
+                    <div clas="container">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="banner-one">
+                                    <span class="banner-tip">Free Delivery</span>
+                                    <h1 class="banner-title">Free Delivery Over &dollar;50</h1>
+                                    <p class="banner-content">Shop &dollar;50 product ang get free delivery anywhere</p>
+                                    <button class="banner-btn">Shop now<i class="fa-solid fa-arrow-right ms-1"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="second-banner">
+                                    <span class="banner-tip">60& off</span>
+                                    <h1 class="banner-title">Organic Food</h1>
+                                    <p class="banner-content">Save up to 60% off on your side order</p>
+                                    <button class="banner-btn">Order Now <i class="fa-solid fa-arrow-right ms-1"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!---best sells--->
+                <section class="products-section best-sells">
+                    <div class="container">
+                        <div class="title-part">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <h2>Daily Best Sells </h2>
+                                </div>
+                                <div class="col-md-6 text-right">
+                                    <ul class="filter">
+                                        <li><a href="#">Featured</a></li>
+                                        <li><a href="#">Popular</a></li>
+                                        <li><a href="#">New</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="posts-part">
+                            <div class="row">
+                                <div class="col-lg-3 col-sm-6 col-xs-12">
+                                    <div class="porduct-box position-relative">
+                                        <span class="offer">Save 10%</span>
+                                        <div class="product-content">
+                                            <img src="uploads/daily/img1.png" alt="">
+                                            <span class="category-item">Coffe &amp;teas</span>
+                                            <h3><a href="#">Coffe 1kg</a></h3>
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                            </p>
+                                            <p class="author">
+                                                By<a href="#">Mr.food</a>
+                                            </p>
+                                            <div class="price-box d-flex flex-column align-items-start">
+                                                <p class="mt-2">
+                                                    <span class="discount-price">$20</span>
+                                                    <span class="regular-price">$25</span>
+                                                </p>
+                                                <div class="progress" style="height: 5px; width: 190px;">
+                                           <div class="porgress-bar bg-success" role="progressbar" style="width:90%;"aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                           </div>
+										<span class="sold">Sold: 20/50</span>
+										<button class="add-to-cart-btn">
+											<i class="fa-solid fa-cart-shopping"></i>
+											Add to Cart
+                                        </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6 col-xs-12">
+                                    <div class="product-box position-relative">
+                                        <span class="offer best">Best Deal</span>
+                                        <div class="product-content">
+                                            <img src="uploads/daily/img2.png" alt="">
+                                            <span class="category-item">Coffe &amp;teas</span>
+                                            <h3><a href="#">Sausage 1kg</a></h3>
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                            </p>
+                                            <p class="author">
+                                                By<a href="#">Mr.food</a>
+                                            </p>
+                                            <div class="price-box d-flex flex-column align-items-start">
+                                                <p class="mt-2">
+                                                    <span class="discount-price">$20</span>
+                                                    <span class="regular-price">$25</span>
+                                                </p>
+                                                <div class="progress" style="height: 5px; width: 190px;">
+                                                    <div class="porgress-bar bg-success" role="progressbar" style="width:90%;"aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+										<span class="sold">Sold: 20/50</span>
+										<button class="add-to-cart-btn">
+											<i class="fa-solid fa-cart-shopping"></i>
+											Add to Cart
+										</button>
+                                            </div>
+                                        </div>
+                                          
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6 col-xs-12">
+                                    <div class="product-box position-relative">
+                                        <span class="offer">Save 10%</span>
+                                        <div class="product-content">
+                                            <img src="uploads/daily/img3.png" alt="">
+                                            <span class="category-item">Coffe &amp; teas</span>
+                                            <h3><a href="#">Green Tea 1kg</a></h3>
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                (4)
+                                            </p>
+                                            <p class="author">
+                                                By <a href="#">Mr.food</a>
+                                            </p>
+                                            <div class="price-box d-flex flex-column align-items-start">
+                                                <p class="mt-2">
+                                                    <span class="discount-price">$20</span>
+                                                    <span class="regular-price">$25</span>
+                                                </p>
+                                                <div class="progress" style="height: 5px; width: 190px;">
+                                                    <div class="porgress-bar bg-success" role="progressbar" style="width:90%;"aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                <span class="sold">Sold: 20/50</span>
+                                                <button class="add-to-cart-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                    Add to Cart
+                                                </button>
+                                </div>       
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="product-box position-relative">
+                            <span class="offer">Save 10%</span>
+                            <div class="product-content">
+                                <img src="uploads/daily/img4.png" alt="">
+                                <span class="category-item">Coffe &amp; teas</span>
+                                <h3><a href="#">Onion 1kg</a></h3>
+                                <p>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    (4)
+                                </p>
+                                <p class="author">
+                                    By <a href="#">Mr.food</a>
+                                </p>
+                                <div class="price-box d-flex flex-column align-items-start">
+                                    <p class="mt-2">
+                                        <span class="discount-price">$20</span>
+                                        <span class="regular-price">$25</span>
+                                    </p>
+                                    <div class="progress" style="height: 5px; width: 190px;">
+                                        <div class="porgress-bar bg-success" role="progressbar" style="width:90%;"aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    <span class="sold">Sold: 20/50</span>
+                                    <button class="add-to-cart-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Add to Cart
+                                    </button>
+                                 </div>
+                             </div>
+                         </div>
+                        </div>                     
+                                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                                        <div class="content">
+                                            <h1 class="mb-0">10% OFF</h1>
+                                            <p class="text-center">For new number sign up at the first time.</p>
+                                            <div class="offer-content">
+                                                <label for="email">Email Address</label>
+                                                <input type="email" name="email" id="email"placeholder="johndoe@gmail.com" style="font-family: Arial, FontAwesome;">
+                                                <label for="password">Password</label>
+									            <input type="password" name="password" id="password" placeholder="Maximum 8 characters" style="font-family: Arial, FontAwesome;">
+                                                <button class="add-to-cart-btn">
+                                                    Register Now
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                             </div>
+                       </div>
+                   </div>
+                                    
+                </section>
+                <!--top sells-->
+                <section class="collection-section">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-3 col-sm-6 col-xs-12">
+                                <div class="top-sells">
+                                    <div class="innerbp-title">
+                                        <h2>Top Sells
+                                            <br><br>
+
+                                            <div class="progress" style="height: 5px; width: 230px;">
+                                                <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="25"
+                                                    aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                            </div>
+                                        </h2>
+                                        </h2>
+                                 
+                                    </div>
+                                    <div class="inner-bp d-flex">
+                                        <img src="./uploads/category/grocery5.png" alt="Orange">
+                                        <div class="product-details">
+                                            <h3><a href="#">Orange 1kg</a></h3>
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                (4)
+                                            </p>
+                                            <div class="price-box">
+                                                <p>
+                                                    <span class="discount-price">$2</span>
+                                                    <span class="regular-price">$3.99</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="inner-bp d-flex">
+                                        <img src="./uploads/category/grocery2.png" alt="Sp">
+                                        <div class="product-details">
+                                            <h3><a href="#">Sp 1kg</a></h3>
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                (4)
+                                            </p>
+                                            <div class="price-box">
+                                                <p>
+                                                    <span class="discount-price">$2</span>
+                                                    <span class="regular-price">$3.99</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="inner-bp d-flex">
+                                        <img src="./uploads/category/grocery3.png" alt="Strawberry">
+                                        <div class="product-details">
+                                            <h3><a href="#">Strawberry 1kg</a></h3>
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                (4)
+                                            </p>
+                                            <div class="price-box">
+                                                <p>
+                                                    <span class="discount-price">$2</span>
+                                                    <span class="regular-price">$3.99</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-xs-12">
+                                <div class="top-rated">
+                                    <div class="innerbp-title">
+                                        <h2>Top Rated
+                                            <br><br>
+
+                                            <div class="progress" style="height: 5px; width: 230px;">
+                                                <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="25"
+                                                    aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                            </div>
+                                        </h2>
+                                        </h2>
+                                    </div>
+                                    <div class="inner-bp d-flex">
+                                        <img src="./uploads/category/grocery1.png" alt="Orange">
+                                        <div class="product-details">
+                                            <h3><a href="#">Orange 1kg</a></h3>
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                (4)
+                                            </p>
+                                            <div class="price-box">
+                                                <p>
+                                                    <span class="discount-price">$2</span>
+                                                    <span class="regular-price">$3.99</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="inner-bp d-flex">
+                                        <img src="./uploads/category/grocery2.png" alt="Sp">
+                                        <div class="product-details">
+                                            <h3><a href="#">Sp 1kg</a></h3>
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                (4)
+                                            </p>
+                                            <div class="price-box">
+                                                <p>
+                                                    <span class="discount-price">$2</span>
+                                                    <span class="regular-price">$3.99</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="inner-bp d-flex">
+                                        <img src="./uploads/category/grocery4.png" alt="Apple">
+                                        <div class="product-details">
+                                            <h3><a href="#">Apple 1kg</a></h3>
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                (4)
+                                            </p>
+                                            <div class="price-box">
+                                                <p>
+                                                    <span class="discount-price">$2</span>
+                                                    <span class="regular-price">$3.99</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-xs-12">
+                                <div class="trending-items">
+                                    <div class="innerbp-title">
+                                        <h2>Trending Sells
+                                            <br><br>
+
+                                            <div class="progress" style="height: 5px; width: 230px;">
+                                                <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="25"
+                                                    aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                            </div>
+                                        </h2>
+                                        </h2>
+                                    </div>
+                                    <div class="inner-bp d-flex">
+                                        <img src="./uploads/category/grocery7.png" alt="Carrot">
+                                        <div class="product-details">
+                                            <h3><a href="#">Carrot 1kg</a></h3>
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                (4)
+                                            </p>
+                                            <div class="price-box">
+                                                <p>
+                                                    <span class="discount-price">$2</span>
+                                                    <span class="regular-price">$3.99</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="inner-bp d-flex">
+                                        <img src="./uploads/category/grocery6.png" alt="Patato">
+                                        <div class="product-details">
+                                            <h3><a href="#">Patato 1kg</a></h3>
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                (4)
+                                            </p>
+                                            <div class="price-box">
+                                                <p>
+                                                    <span class="discount-price">$2</span>
+                                                    <span class="regular-price">$3.99</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="inner-bp d-flex">
+                                        <img src="./uploads/category/grocery5.png" alt="Orange">
+                                        <div class="product-details">
+                                            <h3><a href="#">Orange 1kg</a></h3>
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                (4)
+                                            </p>
+                                            <div class="price-box">
+                                                <p>
+                                                    <span class="discount-price">$2</span>
+                                                    <span class="regular-price">$3.99</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-xs-12">
+                                <div class="recently-added">
+                                    <div class="innerbp-title">
+                                        <h2>Recently Added
+                                            <br><br>
+
+                                            <div class="progress" style="height: 5px; width: 230px;">
+                                                <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="25"
+                                                    aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                            </div>
+                                        </h2>
+                                        </h2>
+                                    </div>
+                                    <div class="inner-bp d-flex">
+                                        <img src="./uploads/category/grocery4.png" alt="Apple">
+                                        <div class="product-details">
+                                            <h3><a href="#">Apple 1kg</a></h3>
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                (4)
+                                            </p>
+                                            <div class="price-box">
+                                                <p>
+                                                    <span class="discount-price">$2</span>
+                                                    <span class="regular-price">$3.99</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="inner-bp d-flex">
+                                        <img src="./uploads/category/grocery7.png" alt="Carrot">
+                                        <div class="product-details">
+                                            <h3><a href="#">Carrot 1kg</a></h3>
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                (4)
+                                            </p>
+                                            <div class="price-box">
+                                                <p>
+                                                    <span class="discount-price">$2</span>
+                                                    <span class="regular-price">$3.99</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="inner-bp d-flex">
+                                        <img src="./uploads/category/grocery3.png" alt="Strawberry">
+                                        <div class="product-details">
+                                            <h3><a href="#">Strawberry 1kg</a></h3>
+                                            <p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                (4)
+                                            </p>
+                                            <div class="price-box">
+                                                <p>
+                                                    <span class="discount-price">$2</span>
+                                                    <span class="regular-price">$3.99</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+                <!--mobile section-->
+                <section class="section">
+                    <div class="container">
+                       <div class="download-sec">
+                                        <h1>Shop Faster With Groceyish App</h1>
+                                        <p>Available on both IOS & Android</p>
+                                        <div class="store">
+                                        <div class="app store">
+                                          <a href="#">
+                                              <img src="./images/app-store.png" alt="App Store">
+                                          </a>             
+                        </div>
+                        <div class="palystore">
+                            <a href="#">
+                                <img src="./images/play-store.png" alt="playstore">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <img src="./uploads/App.png" alt="app">
+                    </div>
+                </section>
+                <!--another section-->
+                <section class="sectionn">
+                    <div class="container">
+                        <div class="prices">
+                            <div>
+                                <img src="./images/icon1.png" alt="">
+                            </div>
+                            <div class="text">
+                                <h3>Best Prices & Deals</h3>
+                                <p>Don't miss our daily amzaing deals and prices</p>
+                            </div>
+                        </div>
+                        <div class="prices">
+                            <div>
+                                <img src="./images/icon2.png" alt="">
+                            </div>
+                            <div class="text">
+                                <h3>Refundable</h3>
+                                <p>If your items have damage we agre to refund it</p>
+                            </div>
+                        </div>
+                        <div class="prices">
+                            <div>
+                                <img src="./images/icon3.png" alt="">
+                            </div>
+                            <div class="text">
+                                <h3>Free delivery</h3>
+                                <p>Do purchase over $50 and get free delivery anywhere</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </section>
+                <!--footer-->
+                <footer class="footer">
+                    <div class="container">
+                        <div class="aboutus">
+                            <div>
+                            <img src="./images/logo.png" alt="logo">
+                        </div>
+                            <br>
+                            <p><span class="contacticons"><i class='fa-solid fa-location-dot' style="color: #39f39d;"></i> Address:</span> 1762 School House Road</p><br>
+                            
+                            <p><span class="contacticons"><i class='fa fa-phone' style='color: #3BB77E'></i> Call us:</span> 1233-777</p><br>
+                            <p><span class="contacticons"><i class='fa fa-envelope' style='color:#3BB77E'></i> Email:</span> gorceyish@contact.com</p><br>
+                             <p><span class="contacticons"><i class='fa fa-clock-o' style='color: #3BB77E'></i> Work hours:</span> 8:00-20:0,Sunday-Thursday</p><br>
+                        </div>
+                        <div class="aboutus">
+                            <h2>Account</h2>
+                            <ul>
+                               <a href="#"> <li>Wishlist</li></a>
+                               <a href="#"><li>Cart</li></a> 
+                                <a href="#"><li>Track Order</li></a>
+                                <a href="#"><li>Shipping Details</li></a>
+                            </ul>
+                            
+                        </div>
+                        <div class="aboutus">
+                            <h2>Useful links</h2>
+                            <ul>
+                               <a href="#"> <li>About us</li></a>
+                               <a href="#"><li>Contact</li></a> 
+                                <a href="#"><li>Hot deals</li></a>
+                                <a href="#"><li>Promotions</li></a>
+                                <a href="#"><li>New products</li></a>
+                            </ul>
+                            
+                        </div>
+                        <div class="aboutus">
+                            <h2>Help Center</h2>
+                            <ul>
+                               <a href="#"> <li>Payments</li></a>
+                               <a href="#"><li>Refund</li></a> 
+                                <a href="#"><li>Checkout</li></a>
+                                <a href="#"><li>Shipping</li></a>
+                                <a href="#"><li>Q&A</li></a>
+                                <a href="#"><li>Privacy Policy</li></a>
+                            </ul>
+                            
+                        </div>
+                        
+                    </div>     
+                    <hr> 
+                    <div class="container">
+                        <div class="payment">
+                    <p> &copy 2022, All right reserved</p>
+                    <div><img src="./images/payment.png" alt=""></div>
+                    <div class="social">
+                     <div class="socials">
+                        <a href="#" class="facebook">
+                            <i class="fa fa-facebook"></i> 
+                        </a>
+                     </div>   
+                     <div class="socials">
+                        <a href="#" class="instagram">
+                            <i class="fab fa-instagram"></i> 
+                        </a>
+                     </div>  
+                     <div class="socials">
+                        <a href="#" class="linked-in">
+                            <i class="fa fa-linkedin"></i> 
+                        </a>
+                     </div>  
+                     <div class="socials">
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i> 
+                        </a>
+                     </div>      
+                    </div>
+                    
+                </div>
+                    </div>
+                    
+                    </footer>
+                    <!-- end footer -->
+    </body>
+</html>
