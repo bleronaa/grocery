@@ -107,7 +107,7 @@ header div.phone a{
 /*Hero section*/
 section.hero-section{
     padding: 90px 0;
-    background-image:url('../uploads/banners/hero-background.png');
+    background-image:url('./uploads/banners/hero-background.png');
     background-size: cover;
 }
 div.hero-content p{
